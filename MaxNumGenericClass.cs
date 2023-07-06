@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Generics1
 {
-    internal class MaxNumGenericClass<T> where T : IComparable<T>
+    public class MaxNumGenericClass<T> where T : IComparable<T>
     {
         private T Value1; 
         private T Value2; 
